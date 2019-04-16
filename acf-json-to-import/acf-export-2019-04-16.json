@@ -1,0 +1,98 @@
+
+
+
+[
+    {
+        "key": "group_5bdc71440dcf3",
+        "title": "Custom Script",
+        "fields": [
+            {
+                "key": "field_59f354d56b588",
+                "label": "Script",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_59f354f76b589",
+                "label": "Script",
+                "name": "elit_script_file",
+                "type": "file",
+                "instructions": "Load a JavaScript file",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "library": "all",
+                "return_format": "array",
+                "min_size": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_59f3552b6b58a",
+                "label": "Script Dependencies",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_59f3555e6b58b",
+                "label": "jQuery",
+                "name": "elit_load_jquery",
+                "type": "true_false",
+                "instructions": "Script requires jQuery",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 99,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": true,
+        "description": ""
+    }
+]
