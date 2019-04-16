@@ -19,7 +19,7 @@ if (!defined('WPINC')) {
  *                           the key as its first arg
  * @return array             The remaining key => value pairs from $array
  */
-function array_filter_key( $arr, $callback ) {
+function elit_array_filter_key( $arr, $callback ) {
   $matched_keys = array_filter( array_keys( $arr ), $callback );
   return array_intersect_key( $arr, array_flip( $matched_keys ) );
 }
@@ -41,7 +41,7 @@ function elit_get_possible_dependencies( $all_fields,
     if ( ! ( $all_fields && $all_available_dependencies ) ) return false;
 
     return 
-      array_filter_key( $all_fields, 
+      elit_array_filter_key( $all_fields, 
                         function( $value ) use ( $all_available_dependencies ) {
                           return in_array( $value, 
                                            $all_available_dependencies, 
